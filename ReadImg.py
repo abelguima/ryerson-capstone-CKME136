@@ -3,7 +3,7 @@ import os
 
 
 def read_header(infile):
-    """Read image header (first 512 bytes)
+    """Read image header (first 512 bytes) try
     """
     h = dict()
     fid = open(infile, 'r+b')
