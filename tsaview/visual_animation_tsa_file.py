@@ -1,11 +1,11 @@
-import matplotlib.pyplot as plt
 import matplotlib.animation as ani
+import matplotlib.pyplot as plt
 import numpy as np
-from read_tsa_img import read_data
+import dataio.read_tsa_img as img_data
 
 
 def view_tsa_image(path):
-    data = read_data(path)
+    data = img_data.read_data(path)
     fig = plt.figure(figsize=(6, 6))
     ax = fig.add_subplot(111)
 
@@ -17,7 +17,7 @@ def view_tsa_image(path):
 
 
 # Those files can be download from Kaggle competition
-#path = 'C:\\Users\\abelguima\\Google Drive\\sample\\0043db5e8c819bffc15261b1f1ac5e42.a3d'
+# path = 'C:\\Users\\abelguima\\Google Drive\\sample\\0043db5e8c819bffc15261b1f1ac5e42.a3d'
 path = 'C:\\Users\\abelguima\\Google Drive\\sample\\0043db5e8c819bffc15261b1f1ac5e42.aps'
 animation = view_tsa_image(path)
 plt.show()
