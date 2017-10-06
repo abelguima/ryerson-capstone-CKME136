@@ -16,7 +16,7 @@ def view_tsa_image(path):
     return ani.FuncAnimation(fig, animate, frames=range(0, data.shape[2]), interval=200, blit=True)
 
 
-# This files can be download from Kaggle competition
+# Those files can be download from Kaggle competition
 #path = 'C:\\Users\\abelguima\\Google Drive\\sample\\0043db5e8c819bffc15261b1f1ac5e42.a3d'
 path = 'C:\\Users\\abelguima\\Google Drive\\sample\\0043db5e8c819bffc15261b1f1ac5e42.aps'
 animation = view_tsa_image(path)
