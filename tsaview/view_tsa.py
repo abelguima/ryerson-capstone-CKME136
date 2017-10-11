@@ -36,7 +36,7 @@ def binarized_surface(data, ax, dcolors):
 
 
 # @jit
-def get_view(data, view_type='surface', cleaned=True):
+def get_view(data, view_type='surface'):
     fig = plt.figure(figsize=(6, 6))
     if view_type.__eq__('surface'):
         ax = fig.add_subplot(111, projection='3d')

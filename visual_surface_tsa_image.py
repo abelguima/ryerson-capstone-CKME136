@@ -10,4 +10,4 @@ path = 'C:\\Users\\abelguima\\Google Drive\\sample\\0043db5e8c819bffc15261b1f1ac
 data = img_data.read_data(path)
 data = tfilter.clean_image(data)
 data = body.setZonesBody(data)
-surface = vtsa.get_view(data, 'surface', cleaned=True)
+surface = vtsa.get_view(data, 'surface')
