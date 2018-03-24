@@ -1,5 +1,5 @@
 # Ryerson Big Data Capstone Project
-# Predicting threat from scanner 3D
+# DeepThreat: Detecting Threats on 3D Body Model for Security in Airports Using Deep Learning
 
 ## Project Abstract
 
