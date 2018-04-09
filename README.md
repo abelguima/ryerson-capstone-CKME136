@@ -25,3 +25,5 @@ please refer this article using:
 ### Contact Information
 
 Please direct any questions or comments to abelguima@gmail.com or abel.guima@ryerson.ca
+
+OBS: Some people from asia that send with outlook I could not reply (google dind't find).
