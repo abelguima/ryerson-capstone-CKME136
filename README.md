@@ -7,27 +7,20 @@
 
 This is Casptone Project in the certificate program of Ryerson Uiversity Big Data Analytics certificate program.
 
-The project attempts to classify threat and regions in a body using 3D sccaned image from airport security. A build model will be construct from a 3d data using machine learning and classifiers like decision-tree.
+The project attempts to classify threat and regions in a body using 3D sccaned image from airport security. A build model will be construct from a 3d data using Deep Machine Learning Digits.
 
-### Documentation
+### Article
+A article about this project can be found at https://arxiv.org/abs/1802.00565
+please refer this article using:
 
-Documents submitted as part of the evaluation process are located in the
-[Submissions](/Submissions/) folder of this repo.
+@article{guimaraes2018detecting,
+  title={Detecting zones and threat on 3D body in security airports using deep learning machine},
+  author={Guimaraes, Abel Ag Rb and Tofighi, Ghassem},
+  journal={arXiv preprint arXiv:1802.00565},
+  year={2018}
+}
 
-- [Abstract](/Submissions/) - Initial Abstract
-- [Literature Review and Methodology](/Submissions/) -
-Initial review of related literature and details of project methodology
 
-## Repo organization
-
-- [Submissions](/Submissions/) - Documents submitted for evaluation
-- [Python_code](/Python_code/) - Python code used in project
-
-### Methodology
-
-The most up-to-date details on the specific project methodology and code 
-execution can be found in the [code_step_by_step.txt](/code_step_by_step.txt) 
-file.
 
 ### Contact Information
 
