@@ -11,7 +11,6 @@ def setZonesBody(data):
     # calculate the left and right of the body
     x_half = np.int64(np.shape(data)[0] / 2)
     # calculate the portion of body
-    # p = np.int64(np.max(np.where(data[x_half:x_half + 1, :, :] > 0)) / 8)
     p = np.int64(np.max(np.where(data[:, :, :] > 0)) / 8)
     # divide in to zones left and right body
     # left body
